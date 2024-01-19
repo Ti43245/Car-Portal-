@@ -1,0 +1,85 @@
+/* Base Styles */
+body {
+    font: 18px Arial, sans-serif;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 14px;
+}
+
+.margin {
+    margin-bottom: 20px;
+}
+
+/* Background Styles */
+.old-bg-1 {
+    background-color: #009688; /* Teal */
+    color: #fff;
+}
+
+.bg-1 {
+    background-color: #f0f0f0; /* Light Gray */
+    color: #666;
+}
+
+.bg-2 {
+    background-color: #333b4d; /* Dark Blue */
+    color: #fff;
+}
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555;
+}
+
+.bg-4 {
+    background-color: #222; /* Dark Gray */
+    color: #fff;
+}
+
+/* Spacing Styles */
+.container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #009688; /* Teal */
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.navbar-brand img {
+    width: 70px !important;
+    max-height: 40px !important;
+    max-width: 100% !important;
+}
+
+.navbar-nav li a:hover {
+    color: #009688 !important; /* Teal */
+}
+
+/* Alert Styles */
+.alert {
+    padding: 5px;
+    background-color: #f0f0f0; /* Light Gray */
+    color: #333;
+}
+
+/* Jumbotron Styles */
+.jumbotron p {
+    color: #666;
+}
+
+.jumbotron h2,
+.jumbotron h3 {
+    color: #bf0000; /* Red */
+}
